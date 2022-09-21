@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Opencart App Test Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.cartapp.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.cartapp.listeners.AllureReportListener"/>
+    <listener class-name="com.qa.cartapp.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="Login Page Test(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserversion" value="90.0"/>
+    <classes>
+      <class name="com.qa.cartapp.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="invalidLoginTest"/>
+          <include name="loginPageUrlTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="forgotPwdLinkExistTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qa.cartapp.testcases.LoginPageTest -->
+      <class name="com.qa.cartapp.testcases.RegistrationPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="userRegTest" invocation-numbers="0 0"/>
+          <include name="tearDown"/>
+          <include name="regSetUp"/>
+        </methods>
+      </class> <!-- com.qa.cartapp.testcases.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [Opencart App Test Regression Suite] -->

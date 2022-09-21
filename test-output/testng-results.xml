@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T18:09:09Z" name="Opencart App Test Regression Suite" finished-at="2022-09-21T18:09:25Z" duration-ms="16606">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T18:09:09Z" name="Login Page Test" finished-at="2022-09-21T18:09:18Z" duration-ms="8911">
+      <class name="com.qa.cartapp.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:09Z" name="setup" finished-at="2022-09-21T18:09:15Z" duration-ms="6173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@15b74fb2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:15Z" name="forgotPwdLinkExistTest" finished-at="2022-09-21T18:09:15Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:15Z" name="invalidLoginTest" finished-at="2022-09-21T18:09:16Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:16Z" name="loginPageTitleTest" finished-at="2022-09-21T18:09:16Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:16Z" name="loginPageUrlTest" finished-at="2022-09-21T18:09:16Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:16Z" name="loginTest" finished-at="2022-09-21T18:09:17Z" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.cartapp.testcases.LoginPageTest@60641ec8]" started-at="2022-09-21T18:09:17Z" name="tearDown" finished-at="2022-09-21T18:09:18Z" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.cartapp.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2022-09-21T18:09:09Z" name="Registration Page Test" finished-at="2022-09-21T18:09:25Z" duration-ms="16606">
+      <class name="com.qa.cartapp.testcases.RegistrationPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.cartapp.testcases.RegistrationPageTest@4b3a45f1]" started-at="2022-09-21T18:09:09Z" name="setup" finished-at="2022-09-21T18:09:15Z" duration-ms="6106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b271e21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="regSetUp()[pri:0, instance:com.qa.cartapp.testcases.RegistrationPageTest@4b3a45f1]" started-at="2022-09-21T18:09:15Z" name="regSetUp" finished-at="2022-09-21T18:09:16Z" depends-on-methods="com.qa.cartapp.base.BaseTest.setup" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regSetUp -->
+        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.cartapp.testcases.RegistrationPageTest@4b3a45f1]" started-at="2022-09-21T18:09:16Z" name="userRegTest" data-provider="getRegExcelData" finished-at="2022-09-21T18:09:19Z" duration-ms="3202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8989898989]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jadams@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegTest -->
+        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.cartapp.testcases.RegistrationPageTest@4b3a45f1]" started-at="2022-09-21T18:09:19Z" name="userRegTest" data-provider="getRegExcelData" finished-at="2022-09-21T18:09:22Z" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lang]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8989898911]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jlang@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegTest -->
+        <test-method signature="userRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.cartapp.testcases.RegistrationPageTest@4b3a45f1]" started-at="2022-09-21T18:09:22Z" name="userRegTest" data-provider="getRegExcelData" finished-at="2022-09-21T18:09:25Z" duration-ms="2503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Long]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8989898912]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mlong@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.cartapp.testcases.RegistrationPageTest@4b3a45f1]" started-at="2022-09-21T18:09:25Z" name="tearDown" finished-at="2022-09-21T18:09:25Z" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.cartapp.testcases.RegistrationPageTest -->
+    </test> <!-- Registration Page Test -->
+  </suite> <!-- Opencart App Test Regression Suite -->
+</testng-results>
